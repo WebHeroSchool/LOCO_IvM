@@ -41,8 +41,8 @@
               Бесплатная доставка включена. Предложение действует на сайте loco.com и в магазинах до 18.09.2018. Для получения скидки в магазинах предъявите скриншот данного предложения. В магазинах предложение не суммируется с другими акциями, предложениями и распродажей.
             </p>
             <button class="promo-info__read-btn button">Читать дальше</button>
-            <div class="other promo-info__other">
-              <a class="other__link" href="#">Другие предложения</a>
+            <div class="other promo-info-other">
+             <a class="other__link promo-info-other__link" href="#">Другие предложения</a>
             </div>
           </section>
         </div>
@@ -53,67 +53,79 @@
       <div class="product-content">
         <div class="product-img product-content__img">
           <div class="product-img__box product-img_position_front">
-            <img class="product-img__item" src="#" alt="Розовый клатч">
+            <img class="product-img__item" src="images/pink_bag.png" alt="Розовый клатч">
           </div>
           <div class="product-img__box product-img_position_back">
-            <img class="product-img__item" src="#" alt="Серый клатч">
+            <img class="product-img__item" src="images/grey_bag.png" alt="Серый клатч">
           </div>
         </div>
-        <section class="product-card product-content__card">
-          <h2 class="product-card__title title">Кожаный клатч</h2>
-          <h3 class="product-card__subtitle subtitle">Осенняя коллекция</h3>
-          <p class="product-card__text text_style_opacity">
-            Бесплатная доставка включена. Предложение действует на сайте loco.com и в магазинах до 18.09.2018. Для получения скидки в магазинах предъявите скриншот данного предложения. В магазинах предложение не суммируется с другими акциями, предложениями и распродажей.
-          </p>
-          <form class="product-form product-card__form">
-            <div class="select-color product-form__select-color">
-              <span class="select-color__item select-color_type_grey"></span>
-              <span class="select-color__item select-color_type_pink select-color__item_checked"></span>
-              <span class="select-color__item select-color_type_blue"></span>
-              <span class="select-color__item select-color_type_green"></span>
-            </div>
-            <div class="price product-form__price">
-              <span class="price__value">1990₽</span>
-            </div>
-            <div class="counter-btn product-form__counter-btn">
-              <span class="counter-btn__minus">-</span>
-              <span class="counter-btn__value">1</span>
-              <span class="counter-btn__plus">+</span>
-            </div>
-            <button class="button product-form__button">Добавить в корзину</button>
-          </form>
-        </section>
-        <div class="other product-content__other">
-            <a class="other__link" href="#">Другие товары на loco.com</a>
+        <div class="section-product__wrap">
+          <section class="product-card product-content__card">
+            <h2 class="product-card__title title">Кожаный клатч</h2>
+            <h3 class="product-card__subtitle subtitle">Осенняя коллекция</h3>
+            <p class="product-card__text">
+              Бесплатная доставка включена. Предложение действует на сайте loco.com и в магазинах до 18.09.2018. Для получения скидки в магазинах предъявите скриншот данного предложения. В магазинах предложение не суммируется с другими акциями, предложениями и распродажей.
+            </p>
+            <form class="product-form product-card__form">
+              <div class="product-form_color-and-price">
+                <div class="select-color product-form__select-color">
+                  <span class="select-color__item select-color_type_grey"></span>
+                  <span class="select-color__item select-color_type_pink select-color__item_checked"></span>
+                  <span class="select-color__item select-color_type_blue"></span>
+                  <span class="select-color__item select-color_type_green"></span>
+                </div>
+                <div class="price product-form__price">
+                  <span class="price__value">1990₽</span>
+                </div>
+              </div>
+              <div class="container-buttons">
+                <div class="counter-btn product-form__counter-btn">
+                  <span class="counter-btn__minus">-</span>
+                  <span class="counter-btn__value">1</span>
+                  <span class="counter-btn__plus">+</span>
+                </div>
+                <button class="button product-form__button">Добавить в корзину</button>
+              </div>
+            </form>
+          </section>
+          <div class="other product-content-other">
+            <a class="other__link product-content-other__link" href="#">Другие товары на loco.com</a>
+            <div class="other__arrow"></div>
+          </div>
         </div>
       </div>
     </div>
     <div class="section-total-look section">
       <div class="total-look-content">
-        <img class="total-look-img" src="#" alt="Serene Total Look">
-        <section class="total-look-card">
-            <h2 class="total-look-card__title title">Serene Total Look</h2>
-            <h3 class="total-look-card__subtitle subtitle">Осенняя коллекция</h3>
-            <p class="total-look-card__text">
-              Джинсы, свитер, обувь.<br>
-              В комплект также входит пакет ароматного чая и кружка.
-            </p>
-            <form class="total-look-form total-look-card__form">
-              <div class="counter-btn total-look-form__counter-btn">
-                <span class="counter-btn__minus">-</span>
-                <span class="counter-btn__value">1</span>
-                <span class="counter-btn__plus">+</span>
-              </div>
-              <button class="button total-look-form__button">Добавить в корзину</button>
-            </form>
-        </section>
-        <div class="other total-look-other">
-            <a class="other__link" href="#">Другие товары на loco.com</a>
+        <div class="total-look-img__wrap">
+          <img class="total-look-img" src="images/total_look.png" alt="Serene Total Look">
+        </div>
+        <div class="section-total-look__wrap">
+          <section class="total-look-card">
+          <h2 class="total-look-card__title title">Serene Total Look</h2>
+          <h3 class="total-look-card__subtitle subtitle">Осенняя коллекция</h3>
+          <p class="total-look-card__text">
+            Джинсы, свитер, обувь.<br>
+            В комплект также входит пакет ароматного чая и кружка.
+          </p>
+          <form class="total-look-form container-buttons">
+            <div class="counter-btn total-look-form__counter-btn">
+              <span class="counter-btn__minus">-</span>
+              <span class="counter-btn__value">1</span>
+              <span class="counter-btn__plus">+</span>
+            </div>
+            <button class="button total-look-form__button">Добавить в корзину</button>
+          </form>
+          </section>
+          <div class="other total-look-other">
+            <a class="total-look-other__link other__link" href="#">Другие товары на loco.com</a>
+            <div class="other__arrow"></div>
+          </div>
         </div>
       </div>
       <footer class="copyright section-total-look__footer">
           <span class="copyright__text">Разработано в</span>
-          <img class="copyright-whs" src="#" alt="WebHeroSchool">
+          <img class="copyright-whs" src="images/webhero.png" alt="WebHeroSchool">
       </footer>
     </div>
   </body>
